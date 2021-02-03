@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<div>
+  <header class="header">
+    <h1 id="title"></h1>
+    <p id="description"></p>
+  </header>
+  <form action="" id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email adress" required>
+      </div>
+    </form>
+
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label id="number-label" for="number">(optional)</label>
+        <input type="number" name="age" id="age" min="13" max="99" class="form-control" placeholder="Age">
+      </div>
+    </form>
+
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label for=""></label>
+        <p>
+          Which option best describes you?
+        </p>
+        <select name="role" id="dropdown" class="form-control">
+          <option disabled="Select applicable role"></option>
+          <option value="Hardcore gamer"></option>
+          <option value="Casual gamer"></option>
+          <option value="Mobile gamer"></option>
+          <option value="Online gamer"></option>
+          <option value="The Observer"></option>
+        </select>
+
+      </div>
+    </form>
+</div>
